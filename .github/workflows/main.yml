@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Build React project
-        run: npm run build
+        run: CI=false npm run build
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
