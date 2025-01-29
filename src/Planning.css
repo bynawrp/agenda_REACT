@@ -1,0 +1,157 @@
+/*-------------------------CSS du planning-------------------------*/
+
+.planning-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background-color: #282c34;
+  color: white;
+}
+
+
+.planning-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+
+/*-------------------------CSS des Dates -------------------------*/
+
+
+.date-event {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  height: 50px;
+  color: white;
+}
+
+.date-event input {
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid #282c34;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*-------------------------CSS des Tags -------------------------*/
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  height: 50px;
+  color: white;
+}
+
+.tags select {
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid #282c34;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+/*-------------------------CSS des Popups -------------------------*/
+
+.event-master-detail ul {
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+.event-master-detail li {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.event-master-detail li:hover {
+  background-color: #282c34;
+  color: white;
+}
+.event-master-detail {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.eventDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #282c34;
+  color: white;
+  border-radius: 10px;
+}
+
+.eventDetail img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.eventDetail p {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.eventDetail button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.eventDetail button:hover {
+  background-color: #504f4f;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.no-event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+  /* centrer au centre de la page */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
