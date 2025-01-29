@@ -1,5 +1,4 @@
-name: Build React App with Docker
-
+name: Build Project
 on:
   push:
     branches:
